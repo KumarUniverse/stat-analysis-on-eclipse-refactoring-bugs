@@ -1524,7 +1524,7 @@ ID,Product,Comp,Assignee,Status,Resolution,Summary,Hardware,Importance,CC_List,D
 141554,JDT,UI,jdt-ui-inbox,RESO,INVA,bug in inline method refactoring,PC Windows XP,P3 normal,0 users,2006-05-12 11:12 EDT,2006-05-12 11:15 EDT
 62628,JDT,UI,jdt-ui-inbox,RESO,FIXE,Rename refactoring does not take mutiple source directories into account when renaming members with default (package) access,PC Windows XP,P3 normal,0 users,2004-05-18 08:17 EDT,2004-05-18 13:47 EDT
 320986,JDT,UI,jdt-ui-inbox,RESO,WORK,[rename] NPE in RenameAnalyzeUtil during Rename Local Variable refactoring,PC Windows 7,P3 normal,6 users,2010-07-27 05:03 EDT,2018-12-14 17:54 EST
-88854,JDT,UI,dirk_baeumer,VERI,FIXE,[refactoring] Error message in “Change Method Signature” dialog doesn’t correctly display method name if name contains character ‘&’,PC Windows XP,P3 normal,4 users,2005-03-23 09:22 EST,2005-05-27 10:33 EDT
+88854,JDT,UI,dirk_baeumer,VERI,FIXE,[refactoring] Error message in Â“Change Method SignatureÂ” dialog doesnÂ’t correctly display method name if name contains character Â‘&Â’,PC Windows XP,P3 normal,4 users,2005-03-23 09:22 EST,2005-05-27 10:33 EDT
 128180,JDT,UI,tobias_widmer,RESO,FIXE,[ltk][refactoring] Refactoring history wizard should offer cancel button on fatal error warning dialog,PC All,P3 normal,0 users,2006-02-16 06:28 EST,2006-02-17 11:45 EST
 54457,JDT,UI,markus.kell.r,RESO,FIXE,Rename Refactoring: Wrong warning: another name shadows [refactoring],PC Windows XP,P3 normal,0 users,2004-03-11 09:03 EST,2004-05-03 14:39 EDT
 21229,JDT,UI,akiezun,RESO,DUPL,PullUp of variable disrupts Javadoc [refactoring],PC Windows 2000,P3 normal,0 users,2002-07-04 07:51 EDT,2002-08-28 11:43 EDT
@@ -2059,7 +2059,7 @@ ID,Product,Comp,Assignee,Status,Resolution,Summary,Hardware,Importance,CC_List,D
 121880,JDT,UI,benno.baumgartner,RESO,FIXE,[build path] refactoring of build path code (simplify code sharing),PC Windows XP,P3 enhancement,1 user,2005-12-22 08:23 EST,2006-03-22 13:58 EST
 110579,JDT,UI,jdt-ui-inbox,RESO,INVA,[clean up][J2SE50]Refactoring: infer type arguments should really be: migrate to Java 5.0,PC Windows XP,P3 enhancement,4 users,2005-09-26 07:05 EDT,2009-08-30 02:08 EDT
 10659,JDT,UI,jdt-ui-inbox,RESO,FIXE,provide "anonymous inner to named inner class" refactoring [refactoring],All All,P3 enhancement,2 users,2002-03-04 03:31 EST,2003-02-22 14:19 EST
-372568,JDT,UI,jdt-ui-inbox,ASSI,---,[refactoring] Refactoring like “change method signature” for generic type and method type parameter lists,PC Windows 7,P3 enhancement,4 users,2012-02-25 09:39 EST,2013-04-30 03:09 EDT
+372568,JDT,UI,jdt-ui-inbox,ASSI,---,[refactoring] Refactoring like Â“change method signatureÂ” for generic type and method type parameter lists,PC Windows 7,P3 enhancement,4 users,2012-02-25 09:39 EST,2013-04-30 03:09 EDT
 23727,JDT,UI,jdt-ui-inbox,RESO,DUPL,Cannot use Refactor to move a static inner class [refactoring],PC Windows NT,P3 enhancement,0 users,2002-09-18 10:37 EDT,2003-08-27 08:03 EDT
 53243,JDT,UI,markus.kell.r,RESO,FIXE,[Refactoring] Bad syntax should not fail local refactorings,PC Windows 2000,P3 enhancement,1 user,2004-02-26 21:09 EST,2006-02-27 12:50 EST
 19767,JDT,UI,jdt-ui-inbox,RESO,WONT,Refactor / Rename Type does not change Javadoc reference in package.html [refactoring],PC Windows 2000,P3 enhancement,0 users,2002-06-10 06:31 EDT,2009-08-30 02:23 EDT
