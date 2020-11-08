@@ -79,7 +79,7 @@ for i in range(1,bug_count):
             additional_bug_info.append(date_reported)
             additional_bug_info.append(date_modified)
 
-            # Get the bug's history url and read it's history.
+            # Get the bug's history URL and read its history.
             bug_history_url = "https://bugs.eclipse.org/bugs/" + parse_str(
                 tree.xpath('//td[@id="bz_show_bug_column_2"]' \
                     '/table//tr[2]/td/a/@href')[0])
