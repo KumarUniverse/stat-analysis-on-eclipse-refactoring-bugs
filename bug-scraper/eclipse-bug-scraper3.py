@@ -52,9 +52,9 @@ for i in range(1,bug_count):
             page = requests.get(bug_url)
 
             # Check if the bug description or title contains
-            # the word "refactor". If it doesn't, skip the bug.
+            # the word "refactor", ignoring case. If it doesn't, skip the bug.
             soup2 = BeautifulSoup(page.content, "html.parser")
-            ctrl_f = soup2.find(string=re.compile("refactor"))
+            ctrl_f = soup2.find(string=re.compile("refactor", re.IGNORECASE))
             if not ctrl_f:
                 break
 
@@ -124,6 +124,6 @@ for i in range(1,bug_count):
             additional_bug_info.clear()
         else:
             csv_file.write(bug_info.text.replace(",","").strip() + ",")
-print("All bugs have been scraped")
 
+print("All bugs have been scraped")
 csv_file.close()
