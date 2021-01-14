@@ -52,7 +52,7 @@ for i in range(1,bug_count):
     ctrl_f = soup2.find(string=re.compile("refactor", re.IGNORECASE))
     if ctrl_f:
         #print(parse_str(bug_id.text))
-        refactoring_bug_id_list.add(parse_str(bug_id.text))
+        refactoring_bug_id_list.add(int(parse_str(bug_id.text)))
 
 refactoring_bug_data_file = open("refactoring_bug_data.csv","r")
 for line in refactoring_bug_data_file.readlines()[1:10]:
